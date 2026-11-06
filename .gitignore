@@ -1,0 +1,28 @@
+# Private project files
+Project_Minutes.md
+CLAUDE.md
+*.pdf
+
+# Local admin assistant, not part of the quantum work
+code/admin.py
+import ollama.py
+email_drafts/
+
+# Local simulator output
+test_runs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credentials, in case any are ever saved here
+.env
+qiskit-ibm.json
+
+# Editor and system files
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini

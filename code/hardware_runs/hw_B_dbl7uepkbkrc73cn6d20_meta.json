@@ -1,0 +1,57 @@
+{
+  "experiment": "B",
+  "backend": "ibm_kingston",
+  "job_id": "dbl7uepkbkrc73cn6d20",
+  "shots": 500,
+  "physical_qubits": [
+    147,
+    148
+  ],
+  "calibration_at_selection": {
+    "147": {
+      "readout_error": 0.00341796875,
+      "sx_error": 0.0011683432148999959,
+      "t1_s": 0.00034961720902902145,
+      "t2_s": 0.00010416280121742408
+    },
+    "148": {
+      "readout_error": 0.00244140625,
+      "sx_error": 0.00011042150005855646,
+      "t1_s": 0.00020347041430059798,
+      "t2_s": 0.00022195018607532594
+    }
+  },
+  "control_error_prep0": 0.020000000000000018,
+  "control_error_prep1": 0.118,
+  "optimization_level": 1,
+  "submitted_utc": "2026-11-04T00:41:31.918091+00:00",
+  "results_saved_utc": "2026-11-04T00:41:39.290690+00:00",
+  "metrics": {
+    "caller": "qiskit_ibm_runtime~sampler.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.50.0,qiskit-2.3.1*,qiskit_aer-0.18.0",
+    "timestamps": {
+      "created": "2026-11-04T00:41:31.515642Z",
+      "finished": "2026-11-04T00:41:38.072294Z",
+      "running": "2026-11-04T00:41:33.698288Z"
+    },
+    "usage": {
+      "qpu_charge_time_seconds": 3,
+      "value": 0.034961,
+      "unit": "resource_units",
+      "status": "pending",
+      "details": [
+        {
+          "value": 0.034961,
+          "unit": "resource_units",
+          "metric": {
+            "id": "caffe3ca-729c-5750-8777-df63bbf8bfd9",
+            "value": 3
+          }
+        }
+      ]
+    },
+    "circuits_execution_time_ns": 391560704
+  },
+  "qiskit": "2.3.1",
+  "qiskit_ibm_runtime": "0.50.0"
+}
